@@ -5,5 +5,58 @@
 }
 
 body {
-    background-color: #000;
+    background: linear-gradient(180deg,#111111, black);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    height: 100vh;
 }
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: 8px solid white;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+
+.answer__form {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    background: linear-gradient(180deg,rgba(60, 139, 93, 0.1),rgba(60, 139, 71, 0.2));
+    border: 2px solid rgb(76, 139, 60);
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(117, 148, 110);
+}
+input::placeholder {
+    color: rgb(117, 148, 110);
+}
+
+.right_answers {
+    background: linear-gradient(180deg,rgba(60, 139, 93, 0.1),rgba(60, 139, 71, 0.2));
+    border: 2px solid rgb(76, 139, 60);
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(117, 148, 110);
+}
+
+button {
+    background: linear-gradient(180deg,rgba(60, 139, 93, 0.3),rgba(60, 139, 71, 0.3));
+    border: 2px solid rgb(76, 139, 60);
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: rgb(117, 148, 110);
+    cursor: pointer;
+}
+
