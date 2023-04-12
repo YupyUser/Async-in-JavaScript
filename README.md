@@ -1,4 +1,4 @@
-# Async-in-JavaScript
+# Stack-in-JavaScript
 
 ## programm for training async thinking in JS
 
