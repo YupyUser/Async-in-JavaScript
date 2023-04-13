@@ -8,14 +8,36 @@
     <title>Async Practise</title>
   </head>
   <body>
-    <div class="container">
-      <code id="codeArea"></code>
-      <div class="answer__form">
-        <input type="text" placeholder="Your Answer" />
-        <button>sent your answer</button>
-        <div class="right_answers">Answers...</div>
-      </div>
-    </div>
+    <code class="container">
+      setTimeout(0,console.log(1));
+      <br />
+      <br />
+      console.log(2);
+      <br />
+      <br />
+      Promise.resolve().then(()=> console.log(3));
+      <br />
+      <br />
+      new Promise((res) => {
+      <br />
+      console.log(4);
+      <br />
+      res(null);
+      <br />
+      }).then(()=> console.log(5));
+      <br />
+      <br />
+      console.log(6);
+      <br />
+      <br />
+      Promise.resolve().then(()=> console.log(7));
+      <br />
+      <br />
+      new Promise((res) => { console.log(8) res(null); }).then(()=>
+      console.log(9));
+    </code>
+
+    TO ANSWER OPEN CONSOLE
   </body>
   <script src="script.js"></script>
 </html>
